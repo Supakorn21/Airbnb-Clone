@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Airbnb Clone</title>
+  </head>
+  <body>
+    <aside class="welcome-nav">
+      <a href=""
+        >Welcome to Airbnb. Find the best places to stay in the world</a
+      >
+    </aside>
+    <header class="header">
+      <div class="nav-bar">
+        <div class="logo">
+          <i class="fa-brands fa-airbnb"></i>
+          <span>airbnb</span>
+        </div>
+        <div class="nav-menu">
+          <div class="menu"><span>Home </span></div>
+          <div class="menu"><span> Locations</span></div>
+          <div class="menu"><span>About Us</span></div>
+        </div>
+        <div class="nav-right">
+          <div class="become right-menu">Become a Host</div>
+          <i class="fa-solid fa-globe right-menu"></i>
+          <div class="profile-container">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+        </div>
+      </div>
+      <div class="search-container">
+        <div class="search">
+          <div class="search-location">
+            <div class="justify-search-box">
+              <span>Location</span><br />
+              <span>Where are you going?</span>
+            </div>
+          </div>
+          <div class="search-checkIn">
+            <div class="justify-search-box">
+              <span>Check-In</span><br />
+              <span>Date</span>
+            </div>
+          </div>
+          <div class="search-checkOut">
+            <div class="justify-search-box">
+              <span>Check-Out</span><br />
+              <span>Date</span>
+            </div>
+          </div>
+          <div class="search-guests">
+            <div class="justify-search-box">
+              <span>Guests</span><br />
+              <input type="number" placeholder="Add Guests"></input>
+            </div>
+          </div>
+          <div class="search-btn-container">
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="preface">
+        <span>Plan Your Trip, <br> Nearby Places</span>
+        <button>
+            <b>Explore Locations</b>
+        </button>
+      </div>
+    </header>
+    <section class="location-lists">
+      <div class="cities quarter">
+        <div class="city">
+          <li>
+            <img src="img/Locations-1.png" alt="">
+            <span>
+              <b>Khao Yai</b><br>
+            <p>
+              30 Minutes by Car
+            </p>
+          </span>
+          </li>
+        </div>
+        <div class="city">
+          <li>
+            <img src="img/Locations-3.png" alt="">
+            <span>
+              <b>Chiangrai</b><br>
+            <p>
+              1 Hour by Car
+            </p>
+          </span>
+          </li>
+        </div>
+        <div class="city">
+          <li>
+            <img src="img/Locations-4.png" alt="">
+            <span>
+              <b>Samui</b><br>
+            <p>
+              3.5 Hours by Car
+            </p>
+          </span>
+          </li>
+        </div>
+        <div class="city">
+          <li>
+            <img src="img/Locations-1.png" alt="">
+            <span>
+              <b>Samet</b><br>
+            <p>
+              30 Minutes by Car
+            </p>
+          </span>
+          </li>
+        </div>
+        <div class="city">
+          <li>
+            <img src="img/Location-7.png" alt="">
+            <span>
+              <b>Pathum Thani</b><br>
+            <p>
+              2 Hours by Car
+            </p>
+          </span>
+          </li>
+        </div>
+        <div class="city">
+          <li>
+            <img src="img/Locations-2.png" alt="">
+            <span>
+              <b>Pattaya</b><br>
+            <p>
+              45 Minutes by Car
+            </p>
+          </span>
+          </li>
+        </div>
+        <div class="city">
+          <li>
+            <img src="img/Location 5.png" alt="">
+            <span>
+              <b>Rayong</b><br>
+            <p>
+              45 Minutes by Car
+            </p>
+          </span>
+          </li>
+        </div>
+        <div class="city">
+          <li>
+            <img src="img/Location-6.png" alt="">
+            <span>
+              <b>Chiangmai</b><br>
+            <p>
+              1 Hour by Car
+            </p>
+          </span>
+          </li>
+        </div>
+      </div>
+    </section>
+    <section class="accomodations">
+      <div class="accomodation-container">
+        <span>Accomodations</span>
+        <div class="accomodation-type">
+          <div class="accomodation-type-house">
+            <img src="img/Accomodations - 1.png" alt="">
+            <span>Houses</span>
+          </div>
+          <div class="accomodation-type-house">
+            <img src="img/Accomodations-3.png" alt="">
+            <span>Log Cabins & Country Houses</span>
+          </div>
+          <div class="accomodation-type-house">
+            <img src="img/Accomodations-2.png" alt="">
+            <span>Unique Spaces</span>
+          </div>
+          <div class="accomodation-type-house">
+            <img src="img/Accomodations-4.png" alt="">
+            <span>Hot Tubs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="activities">
+      <div class="activities-container">
+        <span>Unique Experiences and Activities</span><br>
+        <span>Meet with local experts.</span>
+        <div class="activity-type">
+          <div class="activity-type-box">
+            <img src="img/Virtual Experience.png" alt="">
+            <span>Virtual Experience</span>
+            <span>Travel the World from home</span>
+          </div>
+          <div class="activity-type-box">
+            <img src="img/Experience.png" alt="">
+            <span>Experience</span>
+            <span>Experience from Anywhere!</span>
+          </div>
+          <div class="activity-type-box">
+            <img src="img/Adventure.png" alt="">
+            <span>Adventure</span>
+            <span>Multi-day trip with accomodation and meals</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="joins">
+      <div class="joins-container">
+        <span>Be a part of the millions of Airbnb Host Community.</span>
+        <div class="join">
+          <div class="join-box">
+            <img src="img/Become a Hostel Host .png" alt="">
+            <span>Become a Hostel Host</span>
+          </div>
+          <div class="join-box">
+            <img src="img/Host a Virtual Experience.png" alt="">
+            <span>Host a Virtual Experience</span>
+          </div>
+          <div class="join-box">
+            <img src="img/Host Your Experience.png" alt="">
+            <span>Host your Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="items-quarter">
+        <ul>
+          <li>Introduce</li>
+          <li>Guide to Use Airbnb</li>
+          <li>Newsroom</li>
+          <li>Investor Information</li>
+          <li>Airbnb Plus</li>
+          <li>Airbnb Luxe</li>
+          <li>Hotel Tonight</li>
+          <li>Airbnb Business Program</li>
+          <li>Olympic</li>
+          <li>Jobs</li>
+        </ul>
+        <ul>
+          <li>Community</li>
+          <li>Diversity</li>
+          <li>Accessibility</li>
+          <li>Airbnb Associate</li>
+          <li>Accomodation for Aid Workers</li>
+          <li>Invite Friends</li>
+          <li>Airbnb.org</li>
+        </ul>
+        <ul>
+          <li>To Host</li>
+          <li>Accomodation Hosting</li>
+          <li>Host a Virtual Experience</li>
+          <li>Host Your Experience</li>
+          <li>Responsible Hosting</li>
+          <li>Data Center</li>
+          <li>Community Center</li>
+        </ul>
+        <ul>
+          <li>Airbnb Support</li>
+          <li>Airbnb's response to COVID-19</li>
+          <li>Help Center</li>
+          <li>Reservation Cancellation</li>
+          <li>Airbnb Neighbor Complaint Support</li>
+          <li>Trust and Safety</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="last-footer">
+        <div>
+          <span>© 2021 Airbnb, Inc. All rights reserved</span><br>
+          <span>Privacy Policy · Terms of Service · Site Map · Refund Policy · Company Details</span>
+        </div>
+        <div>
+          <span>
+            <i class="fa-solid fa-globe"></i>
+            <a href="#">English (EN)</a>
+          </span>
+          <span>
+<i class="fa-solid fa-baht-sign"></i>            <a href="#">THB</a>
+          </span>
+        </div>
+        <div>
+          <div>
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-instagram-square"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
