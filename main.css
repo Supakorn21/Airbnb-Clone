@@ -1,7 +1,7 @@
 .welcome-nav {
   max-width: 100%;
   background-color: black;
-  height: 60px;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,7 +234,7 @@ input[type="number"] {
 }
 
 .preface > span {
-  width: 400px;
+  width: auto;
   color: #ffffff;
   font-size: 58px;
   font-weight: bold;
@@ -304,11 +304,15 @@ input[type="number"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   margin: 10px 0;
+  gap: 1rem;
+}
+.accomodation-type-house {
+  width: 100%;
 }
 
 .accomodation-type div img {
-  max-width: 326.8px;
-  max-height: 326.8px;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -335,18 +339,20 @@ input[type="number"] {
 .activity-type {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
 }
 
 .activity-type-box {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  width: 100%;
 }
 
 .activity-type-box > img {
   border-radius: 10px;
-  max-width: 440px;
-  max-height: 440px;
+  width: 100%;
+  height: auto;
 }
 
 .activity-type-box > span:first-of-type {
@@ -370,17 +376,19 @@ input[type="number"] {
 .join {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
   margin-top: 10px;
 }
 
 .join-box {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .join-box > img {
-  width: 440px;
-  height: 293px;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -429,4 +437,19 @@ input[type="number"] {
 
 .last-footer > div:nth-child(2) span a {
   color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .search-container {
+    display: none;
+  }
 }
